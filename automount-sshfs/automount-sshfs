@@ -1,0 +1,6 @@
+#! /bin/bash
+
+# Muntem tots els directoris necessaris
+sshfs pi@192.168.1.6:/sshfs/workspace/ $HOME/workspace -C -p 500
+sshfs pi@192.168.1.6:/sshfs/Documents/ $HOME/Documents -C -p 500
+sshfs pi@192.168.1.6:/sshfs/Música/ $HOME/Música -C -p 500
